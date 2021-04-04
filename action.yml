@@ -13,4 +13,4 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ secrets.EC2_DEPLOY_KEY }}
+    - "${{ secrets.EC2_DEPLOY_KEY }}"
